@@ -1,6 +1,6 @@
 ## Sobre o Projeto
 
-Este projeto visa a disponibilização de um conjunto de Snippets ou atalhos para criação de componentes e arquivos de configuração em aplicações React Native visando a utilização de React Hooks, logo apenas Stateless Components são criados.
+Este projeto visa a disponibilização de um conjunto de Snippets ou atalhos para criação de componentes e arquivos de configuração em aplicações React Native visando a utilização de React Hooks, logo, apenas Stateless Components são criados.
 
 ## Começando
 
