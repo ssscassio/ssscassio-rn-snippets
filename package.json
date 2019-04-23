@@ -1,0 +1,46 @@
+{
+  "name": "ssscassio-rn-snippets",
+  "version": "0.0.1",
+  "description": "React Native snippets created by ssscassio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssscassio/ssscassio-rn-snippets"
+  },
+  "keywords": [
+    "VsCode",
+    "React-native",
+    "Snippets"
+  ],
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": "ssscassio (Cássio Santos)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssscassio/ssscassio-rn-snippets/issues"
+  },
+  "homepage": "https://github.com/ssscassio/ssscassio-rn-snippets#readme",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets-react-native-javascript.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets-react-native-javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-react-native-typescript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-react-native-typescript.json"
+      }
+    ]
+  }
+}
