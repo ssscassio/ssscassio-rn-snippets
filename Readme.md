@@ -4,7 +4,7 @@ Este projeto visa a disponibilização de um conjunto de Snippets ou atalhos par
 
 ## Começando
 
-![Create React Native Component](https://raw.githubusercontent.com/Rocketseat/rocketseat-vscode-react-native-snippets/master/images/component.gif)
+![Create React Native Component](./images/example.gif)
 
 ## Linguagens suportadas (extensões de arquivo)
 
