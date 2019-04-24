@@ -18,12 +18,39 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 
 ## React-hooks
 
-|           Gatilho | Conteúdo                           |
-| ----------------: | ---------------------------------- |
-|    `state-hook →` | `const [$1, set$1] = useState($2)` |
-|      `cdm-hook →` | `useEffect(() => {$0}, []);`       |
-| `cdupdate-hook →` | `useEffect(() => {$0});`           |
-| `cwumount-hook →` | `useEffect(() => () => {$0}, []);` |
+|           Gatilho | Conteúdo                             |
+| ----------------: | ------------------------------------ |
+|    `state-hook →` | `const [$1, set$1] = useState($2)`   |
+|      `cdm-hook →` | `useEffect(() => { $0 }, []);`       |
+| `cdupdate-hook →` | `useEffect(() => { $0 });`           |
+| `cwumount-hook →` | `useEffect(() => () => { $0 }, []);` |
+
+## Imports and exports
+
+|                    Gatilho | Conteúdo                             |
+| -------------------------: | ------------------------------------ |
+|         `import default →` | `import $2 from '${1}';`             |
+| `import react statement →` | `import React, { $1 } from 'react';` |
+|       `import statement →` | `import { $2 } from '$1';`           |
+|         `export default →` | `export default $1`                  |
+|        `export function →` | `export const $1 = ($2) => { };`     |
+
+## Basics Methods
+
+|              Gatilho | Conteúdo                          |
+| -------------------: | --------------------------------- |
+|         `const {} →` | `const { $0 } = $1';`             |
+|           `let {} →` | `let { $0 } = $1;`                |
+|   `function arrow →` | `const $1 = ($2)=>{ $0 };`        |
+|             `()=> →` | `($1)=>{ $0 }`                    |
+| `function default →` | `const $1 = function($2) { $0 };` |
+
+## Console
+
+|          Gatilho | Conteúdo                   |
+| ---------------: | -------------------------- |
+|  `csl default →` | `console.log('$0');`       |
+| `csl variable →` | `console.log('$1: ', $1);` |
 
 ## React Native Components - Javascript
 
@@ -79,10 +106,10 @@ import { connect } from 'react-redux';
 
 // import styles from './styles'
 
-const UserRow = props => {
+const $1 = props => {
   return (
     <View>
-      <Text>UserRow Component</Text>
+      <Text>$1 Component</Text>
     </View>
   );
 };
@@ -94,7 +121,7 @@ const mapDispatchToProps = dispatch => ({});
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(UserRow);
+)($1);
 ```
 
 ## React Native Components - Typescript
@@ -169,10 +196,10 @@ interface OwnProps {}
 
 type Props = StateProps & DispatchProps & OwnProps;
 
-const UserRow = (props: Props) => {
+const $1 = (props: Props) => {
   return (
     <View>
-      <Text>UserRow Component</Text>
+      <Text>$1 Component</Text>
     </View>
   );
 };
@@ -184,5 +211,5 @@ const mapDispatchToProps = dispatch => ({});
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(UserRow);
+)($1);
 ```

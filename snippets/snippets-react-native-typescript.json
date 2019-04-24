@@ -139,5 +139,77 @@
       "}, []);"
     ],
     "description": "Component Will Unmount using react hooks"
+  },
+  "importDefault": {
+    "prefix": "import default",
+    "body": "import $2 from '${1:module};",
+    "description": "Import default"
+  },
+  "importReact": {
+    "prefix": "import react statement",
+    "body": "import React, { $1 } from 'react';",
+    "description": "Import hooks from React"
+  },
+  "importStatement": {
+    "prefix": "import statement",
+    "body": "import { $2 } from '${1:module}';",
+    "description": "Import non defaults from module"
+  },
+  "exportDefault": {
+    "prefix": "export default",
+    "body": "export default $1",
+    "description": "Export default"
+  },
+  "exportNamedFunction": {
+    "prefix": "export function",
+    "body": [
+      "export const ${1:functionName} = (${2:params: any})${3:: any} => {",
+      "  $0",
+      "};"
+    ],
+    "description": "Export named function in ES7 syntax"
+  },
+  "DestructuringConst": {
+    "prefix": "const {}",
+    "body": "const { $0 } = $1;",
+    "description": "Destructuring object as const"
+  },
+  "DestructuringLet": {
+    "prefix": "let {}",
+    "body": "let { $0 } = $1;",
+    "description": "Destructuring object as let"
+  },
+  "ArrowFunctionNamed": {
+    "prefix": "function arrow",
+    "body": [
+      "const ${1:functionName} = (${2:params: any})${3:: any}=>{",
+      "  $0",
+      "};"
+    ],
+    "description": "Arrow Function with name"
+  },
+  "ArrowFunction": {
+    "prefix": "()=>",
+    "body": ["(${1:params: any})${2:: any}=>{", "  $0", "}"],
+    "description": "Arrow Function without name"
+  },
+  "DefaultFunction": {
+    "prefix": "function default",
+    "body": [
+      "const ${1:functionName} = function(${2:params: any})${3:: any} {",
+      "  $0",
+      "};"
+    ],
+    "description": "Default function as const"
+  },
+  "ConsoleLog": {
+    "prefix": "csl default",
+    "body": "console.log('$0');",
+    "description": "Console Log text"
+  },
+  "ConsoleLogVariable": {
+    "prefix": "csl variable",
+    "body": ["console.log('${1/(.*)/${1:/capitalize}/}: ', $1);", "$0"],
+    "description": "Debugging variable with consoleLog"
   }
 }
