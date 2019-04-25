@@ -52,6 +52,58 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |  `csl default →` | `console.log('$0');`       |
 | `csl variable →` | `console.log('$1: ', $1);` |
 
+## Styles
+
+|                     Gatilho | Conteúdo                     |
+| --------------------------: | ---------------------------- |
+|          `justifyContent →` | `justifyContent: '',`        |
+|              `alignItems →` | `alignItems: '',`            |
+|               `alignSelf →` | `alignSelf: '',`             |
+|            `alignContent →` | `alignContent: '',`          |
+|             `borderWidth →` | `borderWidth: ,`             |
+|             `borderColor →` | `borderColor: ,`             |
+|            `borderRadius →` | `borderRadius: ,`            |
+|  `borderBottomLeftRadius →` | `borderBottomLeftRadius: ,`  |
+| `borderBottomRightRadius →` | `borderBottomRightRadius: ,` |
+|     `borderTopLeftRadius →` | `borderTopLeftRadius: ,`     |
+|    `borderTopRightRadius →` | `borderTopRightRadius: ,`    |
+|         `backgroundColor →` | `backgroundColor: ,`         |
+|                 `display →` | `display: ,`                 |
+|                 `opacity →` | `opacity: ,`                 |
+|                    `flex →` | `flex: '',`                  |
+|           `flexDirection →` | `flexDirection: '',`         |
+|                `fontSize →` | `fontSize: '',`              |
+|              `fontWeight →` | `fontWeight: '',`            |
+|                  `height →` | `height: ,`                  |
+|                   `width →` | `width: ,`                   |
+|                  `margin →` | `margin: ,`                  |
+|            `marginBottom →` | `marginBottom: ,`            |
+|        `marginHorizontal →` | `marginHorizontal: ,`        |
+|              `marginLeft →` | `marginLeft: ,`              |
+|             `marginRight →` | `marginRight: ,`             |
+|               `marginTop →` | `marginTop: ,`               |
+|          `marginVertical →` | `marginVertical: ,`          |
+|                 `padding →` | `padding: ,`                 |
+|                `position →` | `position: absolute,`        |
+|                    `left →` | `left: '',`                  |
+|                   `right →` | `right: '',`                 |
+|                     `top →` | `top: '',`                   |
+|                  `bottom →` | `bottom: '',`                |
+
+### `shadow elevation` Define um estilo de sombra
+
+```js
+shadowColor: ${1:'#000'},
+shadowOffset: {
+  width: ${2:0},
+  height: ${3:2},
+},
+shadowOpacity: ${4:0.25},
+shadowRadius: ${5:3.84},
+elevation: ${6:5},
+$0
+```
+
 ## React Native Components - Javascript
 
 ### `rnc` Cria um Componente **Stateless**

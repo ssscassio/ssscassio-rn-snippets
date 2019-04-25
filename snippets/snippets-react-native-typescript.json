@@ -211,5 +211,216 @@
     "prefix": "csl variable",
     "body": ["console.log('${1/(.*)/${1:/capitalize}/}: ', $1);", "$0"],
     "description": "Debugging variable with consoleLog"
+  },
+  "justifyContent": {
+    "prefix": "justifyContent",
+    "body": ["justifyContent: '${1:center}',", "$0"],
+    "description": "justifyContent"
+  },
+  "alignItems": {
+    "prefix": "alignItems",
+    "body": ["alignItems: '${1:center}',", "$0"],
+    "description": "alignItems"
+  },
+  "alignSelf": {
+    "prefix": "alignSelf",
+    "body": ["alignSelf: '${1:center}',", "$0"],
+    "description": "alignSelf"
+  },
+  "alignContent": {
+    "prefix": "alignContent",
+    "body": ["alignContent: '${1}',", "$0"],
+    "description": "alignContent"
+  },
+  "borderWidth": {
+    "prefix": "borderWidth",
+    "body": ["borderWidth: ${1},", "$0"],
+    "description": "borderWidth"
+  },
+  "borderColor": {
+    "prefix": "borderColor",
+    "body": ["borderColor: ${1},", "$0"],
+    "description": "borderColor"
+  },
+  "borderRadius": {
+    "prefix": "borderRadius",
+    "body": ["borderRadius: ${1},", "$0"],
+    "description": "borderRadius"
+  },
+  "borderBottomLeftRadius": {
+    "prefix": "borderBottomLeftRadius",
+    "body": ["borderBottomLeftRadius: ${1},", "$0"],
+    "description": "borderBottomLeftRadius"
+  },
+  "borderBottomRightRadius": {
+    "prefix": "borderBottomRightRadius",
+    "body": ["borderBottomRightRadius: ${1},", "$0"],
+    "description": "borderBottomRightRadius"
+  },
+  "borderTopLeftRadius": {
+    "prefix": "borderTopLeftRadius",
+    "body": ["borderTopLeftRadius: ${1},", "$0"],
+    "description": "borderTopLeftRadius"
+  },
+  "borderTopRightRadius": {
+    "prefix": "borderTopRightRadius",
+    "body": ["borderTopRightRadius: ${1},", "$0"],
+    "description": "borderTopRightRadius"
+  },
+  "backgroundColor": {
+    "prefix": "backgroundColor",
+    "body": ["backgroundColor: ${1},", "$0"],
+    "description": "backgroundColor"
+  },
+  "display": {
+    "prefix": "display",
+    "body": ["display: '${1:none}',", "$0"],
+    "description": "display"
+  },
+  "opacity": {
+    "prefix": "opacity",
+    "body": ["opacity: ${1},", "$0"],
+    "description": "opacity"
+  },
+  "shadowColor": {
+    "prefix": "shadow elevation",
+    "body": [
+      "shadowColor: ${1:'#000'},",
+      "shadowOffset: {",
+      "  width: ${2:0},",
+      "  height: ${3:2},",
+      "},",
+      "shadowOpacity: ${4:0.25},",
+      "shadowRadius: ${5:3.84},",
+      "elevation: ${6:5},",
+      "$0"
+    ],
+    "description": "shadow"
+  },
+  "flex": {
+    "prefix": "flex",
+    "body": ["flex: ${1},", "$0"],
+    "description": "flex"
+  },
+  "flexDirection": {
+    "prefix": "flexDirection",
+    "body": ["flexDirection: '${1:column}',", "$0"],
+    "description": "flexDirection"
+  },
+  "fontSize": {
+    "prefix": "fontSize",
+    "body": ["fontSize: ${1},", "$0"],
+    "description": "fontSize"
+  },
+  "fontWeight": {
+    "prefix": "fontWeight",
+    "body": ["fontWeight: '${1:bold}',", "$0"],
+    "description": "fontWeight"
+  },
+  "height": {
+    "prefix": "height",
+    "body": ["height: ${1},", "$0"],
+    "description": "height"
+  },
+  "width": {
+    "prefix": "width",
+    "body": ["width: ${1},", "$0"],
+    "description": "width"
+  },
+
+  "margin": {
+    "prefix": "margin",
+    "body": ["margin: '${1}',", "$0"],
+    "description": "margin"
+  },
+  "marginBottom": {
+    "prefix": "marginBottom",
+    "body": ["marginBottom: ${1},", "$0"],
+    "description": "marginBottom"
+  },
+  "marginHorizontal": {
+    "prefix": "marginHorizontal",
+    "body": ["marginHorizontal: '${1}',", "$0"],
+    "description": "marginHorizontal"
+  },
+  "marginLeft": {
+    "prefix": "marginLeft",
+    "body": ["marginLeft: ${1},", "$0"],
+    "description": "marginLeft"
+  },
+  "marginRight": {
+    "prefix": "marginRight",
+    "body": ["marginRight: ${1},", "$0"],
+    "description": "marginRight"
+  },
+  "marginTop": {
+    "prefix": "marginTop",
+    "body": ["marginTop: ${1},", "$0"],
+    "description": "marginTop"
+  },
+  "marginVertical": {
+    "prefix": "marginVertical",
+    "body": ["marginVertical: '${1}',", "$0"],
+    "description": "marginVertical"
+  },
+  "padding": {
+    "prefix": "padding",
+    "body": ["padding: ${1},", "$0"],
+    "description": "padding"
+  },
+  "paddingBottom": {
+    "prefix": "padding",
+    "body": ["paddingBottom: ${1},", "$0"],
+    "description": "paddingBottom"
+  },
+  "paddingHorizontal": {
+    "prefix": "padding",
+    "body": ["paddingHorizontal: ${1},", "$0"],
+    "description": "paddingHorizontal"
+  },
+  "paddingLeft": {
+    "prefix": "padding",
+    "body": ["paddingLeft: ${1},", "$0"],
+    "description": "paddingLeft"
+  },
+  "paddingRight": {
+    "prefix": "padding",
+    "body": ["paddingRight: ${1},", "$0"],
+    "description": "paddingRight"
+  },
+  "paddingTop": {
+    "prefix": "padding",
+    "body": ["paddingTop: ${1},", "$0"],
+    "description": "paddingTop"
+  },
+  "paddingVertical": {
+    "prefix": "padding",
+    "body": ["paddingVertical: ${1},", "$0"],
+    "description": "paddingVertical"
+  },
+  "position": {
+    "prefix": "position",
+    "body": ["position: ${1:absolute},", "$0"],
+    "description": "position"
+  },
+  "left": {
+    "prefix": "left",
+    "body": ["left: ${1},", "$0"],
+    "description": "left"
+  },
+  "right": {
+    "prefix": "right",
+    "body": ["right: ${1},", "$0"],
+    "description": "right"
+  },
+  "top": {
+    "prefix": "top",
+    "body": ["top: ${1},", "$0"],
+    "description": "top"
+  },
+  "bottom": {
+    "prefix": "bottom",
+    "body": ["bottom: ${1},", "$0"],
+    "description": "bottom"
   }
 }
