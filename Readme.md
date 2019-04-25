@@ -25,7 +25,7 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 | `cdupdate-hook →` | `useEffect(() => { $0 });`           |
 | `cwumount-hook →` | `useEffect(() => () => { $0 }, []);` |
 
-## Imports and exports
+## Imports e exports
 
 |                    Gatilho | Conteúdo                             |
 | -------------------------: | ------------------------------------ |
@@ -35,7 +35,7 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |         `export default →` | `export default $1`                  |
 |        `export function →` | `export const $1 = ($2) => { };`     |
 
-## Basics Methods
+## Métodos básicos
 
 |              Gatilho | Conteúdo                          |
 | -------------------: | --------------------------------- |
